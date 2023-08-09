@@ -1,0 +1,20 @@
+{
+  "name": "005-http",
+  "version": "1.0.0",
+  "description": "Консольное приложение погоды с использованием API сервиса weatherstack.com",
+  "main": "config.js",
+  "type": "module",
+  "bin": {
+    "weather": "./weather.js"
+  },
+  "scripts": {
+    "start": "node weather.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "is-online": "^10.0.0"
+  }
+}
